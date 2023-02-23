@@ -1,10 +1,10 @@
 this aplicacion is a react course by Fernando Herrera.
 
-> in this course he will teach me:
-> use an api.
-> use hooks.
-> create custom hooks.
-> use helpers.
+ -in this course he will teach me:
+ -use an api.
+ -use hooks.
+ -create custom hooks.
+ -use helpers.
 
 ## Available Scripts
 
