@@ -1,17 +1,27 @@
-
 * {
-  font-family:  Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-body{
+body {
   padding: 60px;
 }
 
 /* AddCategories */
 
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form,
+label {
+  margin: 5px;
+}
+
 input {
   width: 40%;
   font-family: Helvetica, Arial, sans-serif;
+  margin: 5px;
 }
 
 input:hover {
@@ -20,7 +30,7 @@ input:hover {
 
 /* GrifGrid */
 
-.card-grid{
+.card-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -40,7 +50,7 @@ input:hover {
   font-size: 14px;
 }
 
-.card{
+.card {
   width: 290px;
   border-radius: 5px;
   border: 1px solid grey;
@@ -51,6 +61,6 @@ input:hover {
   text-align: center;
 }
 
-.card:hover{
+.card:hover {
   background-color: #D3D3D3;
 }
