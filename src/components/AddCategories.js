@@ -12,7 +12,7 @@ const AddCategories = ({ categories, setCategories }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (inputValue != categories.find(e => e === inputValue)) {
+        if (inputValue !== categories.find(e => e === inputValue)) {
             setCategories((cats) => [ inputValue, ...cats ]);
             setinputValue('');
         }
@@ -20,7 +20,8 @@ const AddCategories = ({ categories, setCategories }) => {
 
     return (
 
-        <form onSubmit={handleSubmit}>
+        <form className='form' onSubmit={handleSubmit}>
+            <label>Buscar gifs</label>
             <input
                 type='text'
                 value={inputValue}
